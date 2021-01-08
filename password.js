@@ -24,7 +24,7 @@ if (argv[3]) {
   number = parseInt(argv[3], 10)
 }
 
-for (var i = 1; i <=number; i++) {
+for (var i = 1; i <= number; i++) {
   console.log(generatePassword(length))
 }
 
